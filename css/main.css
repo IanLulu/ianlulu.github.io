@@ -2,22 +2,23 @@
  * css for index.html
  */
 
-/* body {
-
-} */
+body {
+   font-family: 'Source Code Pro', system-ui;
+}
 
 a {
    color: #ed0414;
 }
 
 .header {
+   font-family: 'Times New Roman', Times, serif;
    text-align: center;
    justify-content: center;
 }
 
 .socials {
    text-align: center;
-   padding: 10px;
+   padding: 12px;
 }
 
 .linkl {
@@ -30,6 +31,8 @@ a {
 }
 
 .collapsible {
+   font-family: 'Source Code Pro', system-ui;
+   font-size: 12pt;
    background-color: #000;
    color: #fff;
    cursor: pointer;
@@ -38,7 +41,6 @@ a {
    border: none;
    text-align: left;
    outline: none;
-   font-size: 12pt;
    /* source: https://stackoverflow.com/questions/15300234/how-can-i-horizontally-center-a-button-element-in-a-div-element 
       centers the button */
    margin: 0 auto;
