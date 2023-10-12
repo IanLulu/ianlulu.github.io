@@ -1,0 +1,85 @@
+/* 
+ * css for index.html
+ */
+
+/* body {
+
+} */
+
+a {
+   color: #ed0414;
+}
+
+.header {
+   text-align: center;
+   justify-content: center;
+}
+
+.socials {
+   text-align: center;
+   padding: 10px;
+}
+
+.linkl {
+   text-decoration: none;
+   /* vertical-align: middle; */
+}
+
+.logo {
+   vertical-align: -5px;
+}
+
+.collapsible {
+   background-color: #000;
+   color: #fff;
+   cursor: pointer;
+   padding: 18px;
+   width: 64%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 12pt;
+   /* source: https://stackoverflow.com/questions/15300234/how-can-i-horizontally-center-a-button-element-in-a-div-element 
+      centers the button */
+   margin: 0 auto;
+   display: block;
+}
+
+.active, .collapsible:hover {
+   background-color: #ed0414;
+}
+
+.collapsible:after {
+   content: "\002B";
+   color: #fff;
+   font-weight: bold;
+   float: right;
+   margin-left: 5px;
+}
+
+.active:after {
+   content: "\2212";
+}
+
+.content {
+   background-color: #eee;
+   padding: auto; /* FIXME */
+   width: 64%;
+   text-align: left;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   margin: 0 auto;
+   display: block;
+}
+
+/* source: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style 
+   changes style of list, unordered or ordered */
+.one {
+   list-style: square;
+}
+
+.footer {
+   text-align: center;
+   padding: 12px;
+}
