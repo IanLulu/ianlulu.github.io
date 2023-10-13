@@ -81,6 +81,11 @@ a {
    list-style: square;
 }
 
+.details {
+   font-family: 'Victor Mono', monospace;
+   color: #999;
+}
+
 .footer {
    text-align: center;
    padding: 12px;
