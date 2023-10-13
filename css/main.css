@@ -70,20 +70,29 @@ a {
    text-align: left;
    max-height: 0;
    overflow: hidden;
-   transition: max-height 0.2s ease-out;
+   transition: max-height 0.3s ease-out;
    margin: 0 auto;
    display: block;
 }
 
-/* source: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style 
-   changes style of list, unordered or ordered */
+/* 
+   unordered list style
+   source: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style 
+   changes style of list, unordered or ordered 
+*/
 .one {
    list-style: square;
 }
 
 .details {
    font-family: 'Victor Mono', monospace;
+   font-size: 9pt;
    color: #999;
+
+   &.right {
+      text-align: justify;
+      text-align-last: right;
+   }
 }
 
 .footer {
