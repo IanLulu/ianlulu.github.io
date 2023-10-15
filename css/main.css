@@ -10,6 +10,28 @@ a {
    color: #ed0414;
 }
 
+/* material icons */
+.material-symbols-outlined {
+   font-family: 'Material Symbols Outlined';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;  /* Preferred icon size */
+   display: inline-block;
+   line-height: 1;
+   text-transform: none;
+   letter-spacing: normal;
+   word-wrap: normal;
+   white-space: nowrap;
+   direction: ltr;
+
+   &.size {
+      font-size: 16px;
+      font-variation-settings: 
+      'wght' 400,
+      'opsz' 24;
+   }
+}
+
 .header {
    font-family: 'Times New Roman', Times, serif;
    text-align: center;
